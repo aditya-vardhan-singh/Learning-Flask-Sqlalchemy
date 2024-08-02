@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='home.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Student Management</h1>
+      <div class="form-container">
+        <form action="/filter_by_name" method="POST">
+          <h2>Filter Student by Name</h2>
+          <div class="form-group">
+            <input
+              type="text"
+              name="name"
+              placeholder="Enter name to filter by"
+              required
+            />
+          </div>
+          <button type="submit" class="btn btn-primary">Filter</button>
+        </form>
+        <form action="/show_all" method="POST">
+          <button type="submit" class="btn btn-secondary">
+            Show all records
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
