@@ -3,7 +3,7 @@
 ## Screenshots
 
 ### Home page
-[![Watch the video](https://github.com/aditya-vardhan-singh/Learning-Flask-Sqlalchemy/blob/main/assets/Screenshot%20from%202024-08-03%2001-51-38.png)](https://github.com/aditya-vardhan-singh/Learning-Flask-Sqlalchemy/blob/main/assets/Screencast%20from%202024-08-03%2001-10-36.webm)
+![Screenshot0](https://github.com/aditya-vardhan-singh/Learning-Flask-Sqlalchemy/blob/main/assets/Screenshot%20from%202024-08-03%2001-51-38.png)
 ### Showing all records
 ![Screenshot1](https://github.com/aditya-vardhan-singh/Learning-Flask-Sqlalchemy/blob/main/assets/Screenshot%20from%202024-08-03%2002-02-30.png)
 ### Showing filtered records
@@ -25,3 +25,7 @@ DB_HOST=?
 DB_PORT=?
 DB_DATABASE=?
 ```
+
+## Video
+
+![Watch the usecase video]((https://github.com/aditya-vardhan-singh/Learning-Flask-Sqlalchemy/blob/main/assets/Screencast%20from%202024-08-03%2001-10-36.webm))
