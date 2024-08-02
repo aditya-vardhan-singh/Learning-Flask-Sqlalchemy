@@ -8,7 +8,7 @@ Required installations:
 [`pip install pyscopg2`](https://pypi.org/project/psycopg/)
 [`pip install python-dotenv`](https://pypi.org/project/python-dotenv/)
 
-Provide you own postgresql credentials in a `.env' file in project folder:
+Provide your own postgresql credentials in a `.env' file in project folder:
 ```
 DB_USER=?
 DB_PASS=?
